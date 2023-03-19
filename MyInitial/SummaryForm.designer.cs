@@ -2,6 +2,7 @@ namespace MyNameSpace
 {
     partial class SummaryForm
     {
+        //I changed this line 
         /// <summary>
         /// Required designer variable.
         /// </summary>
