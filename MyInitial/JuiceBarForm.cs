@@ -164,15 +164,15 @@ namespace MyNameSpace
             {
                 case "twelveOunceRadioButton":
                     itemSizeDecimal = 3m;
-                    drinkOrder[itemCountInteger].sizeString = "12 oz";
+                    drinkOrder[itemCountInteger].sizeString = "200 oz";
                     break;
                 case "sixteenOunceRadioButton":
                     itemSizeDecimal = 3.5m;
-                    drinkOrder[itemCountInteger].sizeString = "16 oz";
+                    drinkOrder[itemCountInteger].sizeString = "300 oz";
                     break;
                 case "twentyOunceRadioButton":
                     itemSizeDecimal = 4m;
-                    drinkOrder[itemCountInteger].sizeString = "20 oz";
+                    drinkOrder[itemCountInteger].sizeString = "400 oz";
                     break;
             }
             itemPriceDecimal = itemSizeDecimal + findExtrasPrice();
